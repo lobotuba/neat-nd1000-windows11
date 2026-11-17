@@ -1,0 +1,14 @@
+# Vendor binaries are never committed (the scripts download them from Neat and verify hashes)
+vendor/
+*.msi
+*.exe
+*.cab
+*.ds
+*.dll
+*.sys
+*.cat
+
+# Logs / captures may contain serial numbers and local paths
+*.log
+*.etl
+captures/
